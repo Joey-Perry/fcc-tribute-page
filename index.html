@@ -4,9 +4,11 @@
         <style>
             #img-container {
                 display: flex;
+              flex-direction: column;
+              border: black 3px solid;
             }
             #image {
-                width: 100%;
+                max-width: 100%;
                 height: auto;
                 align-self: center;
             }
@@ -17,13 +19,15 @@
             <h1 id="title">St. Ignatius</h1>
             <div id="img-div">
                 <figure id="img-container">
-                <img id="image" src ="#" alt="Icon of St.Ignatius">
+                <img id="image" 
+                src ="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Hosios_Loukas_%28south_west_chapel%2C_south_side%29_-_Ignatios.jpg/800px-Hosios_Loukas_%28south_west_chapel%2C_south_side%29_-_Ignatios.jpg" 
+                alt="Icon of St.Ignatius">
                 <figcaption id="img-caption">Icon of St.Ignatius</figcaption>
             </figure>
             </div>
             <p id="tribute-info">This will be some text 
                 about the life & faith of St. Ignatius</p>
-                <a href="#" target="_blank">Additional Information</a>
+                <a href="#" target="_blank" id="tribute-link">Additional Information</a>
         </main>
     </body>
 </html>
